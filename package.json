@@ -1,0 +1,33 @@
+{
+  "name": "curso-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "@hapi/boom": "^10.0.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "faker": "^5.5.3",
+    "joi": "^17.13.3"
+  },
+  "engines":{
+    "node": "22.15.0"
+  }
+}
