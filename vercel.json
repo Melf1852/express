@@ -12,4 +12,7 @@
     }
   ]
 }
+```2. npm install @hapi/boom@9.1.4.
+
+3.module.exports = app; (al final de api/index.js)
 
